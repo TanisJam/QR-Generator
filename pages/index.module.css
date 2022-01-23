@@ -1,0 +1,19 @@
+.qrContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: .5rem auto;
+  padding: 1rem;
+  background-color: #4ab1ec;
+  border-radius: .6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: .8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}

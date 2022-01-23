@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  gap: .2rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.input, .input::placeholder {
+  text-align: center;
+}
+
+.form * {
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: .4rem;
+}
+
+.form button {
+  cursor: pointer;
+}
+.form button:hover {
+  background: #ccc;
+}
+.form button:active {
+  background: #eee;
+}
